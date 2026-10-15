@@ -1,4 +1,6 @@
 from maps.GakushokuSample import GakushokuSample
+
+from maps.SotaNoOsusume import SotaNoOsusume
 from maps.RikoGakusyoku import RikoGakusyoku
 from maps.shimakageOsusume import shimakageOsusume
 
@@ -6,6 +8,7 @@ from maps.shimakageOsusume import shimakageOsusume
 data = [GakushokuSample(),
 		shimakageOsusume(),
        RikoGakusyoku(),
+        SotaNoOsusume()
        ]
 
 for rank, d in enumerate(data, start=1):
